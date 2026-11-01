@@ -1,0 +1,21 @@
+{
+  "name": "playwrighttraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandramikszuta/playwrightTraining.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aleksandramikszuta/playwrightTraining/issues"
+  },
+  "homepage": "https://github.com/aleksandramikszuta/playwrightTraining#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6"
+  }
+}
