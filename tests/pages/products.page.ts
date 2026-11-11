@@ -80,4 +80,10 @@ export class ProductsPage {
   async openProduct(index: number) {
     await this.productCards.nth(index).click();
   }
+
+  async openProductByName(name: string) {
+    await this.productCards
+      .filter({ has: this.page.getByRole('heading', { name, exact: true }) })
+      .click();
+  }
 }
